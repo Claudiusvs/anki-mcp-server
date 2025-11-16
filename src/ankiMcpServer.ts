@@ -118,8 +118,9 @@ export class AnkiMcpServer {
 		console.error("Anki MCP server running on stdio");
 
 		// Send notifications to inform client about available tools and resources
-		await this.notifyToolsListChanged();
-		await this.notifyResourcesListChanged();
+		// Temporarily disabled due to SDK compatibility issues
+		// await this.notifyToolsListChanged();
+		// await this.notifyResourcesListChanged();
 	}
 
 	/**

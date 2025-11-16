@@ -7,3 +7,7 @@ test-language.js
 dist/
 *.mcpb
 *.tgz
+.DS_Store
+.specstory/
+progress.md
+WARP.md
